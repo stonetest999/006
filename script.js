@@ -192,8 +192,8 @@ function generateImage() {
         if (uploadedImage && uploadedImage.complete) {
             const midX = 540;
             const midY = 80;
-            const midWidth = 2860;
-            const midHeight = 1906;
+            const midWidth = 3400;
+            const midHeight = 1880;
             const scale = Math.min(midWidth / uploadedImage.width, midHeight / uploadedImage.height);
             const scaledWidth = uploadedImage.width * scale;
             const scaledHeight = uploadedImage.height * scale;
